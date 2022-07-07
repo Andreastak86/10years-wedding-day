@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  background-image: url('pinkrose.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #4cf157;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 10px rgb(214, 33, 33);
+  font-size: 50px;
+}
+
+#bff-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid #780634;
+  margin-bottom: 10px;
+}
+
+#bday-age {
+  background: #780634;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#bday-date {
+  margin: 0;
+  background: #780634;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  margin: 20px auto;
+  max-width: 500px;
+  height: 400px;
+  width: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url('red-buk.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-happy:hover {
+  background-image: url('tropo.jpg');
+}
+
+#gift-img-hot:hover {
+  background-image: url('eiffel.jpg');
+}
+
+#gift-img-genius:hover {
+  background-image: url('mtever.jpg');
+}
+
+#gift-img-badass:hover {
+  background-image: url('africa.jpg');
+}
+
+#gift-img-cheers:hover {
+  background-image: url('golden.jpg');
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
+}
